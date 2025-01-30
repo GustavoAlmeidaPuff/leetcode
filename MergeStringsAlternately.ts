@@ -1,4 +1,4 @@
-unction mergeAlternately(word1: string, word2: string): string {
+function mergeAlternately(word1: string, word2: string): string {
     let mergedString = ''; 
     const maxLength = Math.max(word1.length, word2.length); 
 
