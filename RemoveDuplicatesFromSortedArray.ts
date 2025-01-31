@@ -11,6 +11,7 @@ function removeDuplicates(nums: number[]): number {
     let duplicatesCount = 0;
     // Index to track the position of the last unique number in the array
     let index = 0;
+
     
     // Iterate through the array starting from the second element
     for (let i = 1; i < nums.length; i++) {
