@@ -15,5 +15,4 @@ class Solution(object):
                 next_row[j] += res[j]
                 next_row[j + 1] += res[j]
             res = next_row
-        # res agora e exatamente a rowIndex-esima linha (0-based) do Triangulo de Pascal.
         return res
